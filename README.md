@@ -1,4 +1,3 @@
-# Pooler Bank — Source MFB Style System
 
 A production-grade **Spring Boot microfinance backend** integrated with **Apache Fineract** as the core banking engine.
 
