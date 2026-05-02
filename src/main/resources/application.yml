@@ -1,0 +1,26 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/pooler_bank
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  application:
+    name: pooler_bank
+app:
+  jwt-secret: 34cdcf6a80b7324eabc8d931c329855815b0eb3bc1c4c6d9e4d0f7b584288bb3
+  jwt-expiration: 86400000
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: myapp.log
